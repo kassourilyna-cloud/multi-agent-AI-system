@@ -37,7 +37,7 @@ Because this pipeline is orchestrated via standard Python code, agents communica
 * **LLM Engine:** `gemini-2.5-flash` (chosen for its exceptionally fast response times, high context window, low cost, and reliable structural JSON adherence).
 * **AI Orchestration:** Google GenAI SDK (utilizing the modern `google.genai` client and `types.GenerateContentConfig` for tool definitions).
 * **Search Engine Tool:** Tavily API (via `TavilyClient`) to query the web and gather clean, parsed, developer-friendly Markdown content rather than messy raw HTML.
-* **Environment Management:** `python-dotenv` to safely inject system variables from the local `.env` file.
+* **Environment Management:
 * **Terminal UI:** `rich` to display colored and formatted JSON print outputs natively in the CLI.
 
 
